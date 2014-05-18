@@ -1,0 +1,9 @@
+
+sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
+sudo rm -rf /System/Library/Extensions/ApplePS2Controller.kext
+
+
+Install this app with Kext Utility
+
+sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons
+sudo cp VoodooPS2Daemon /usr/bin
