@@ -8,4 +8,4 @@ How make AppleHDA work
 	* by setting `Clover` in following way:
 	
 	![Clover Setting](Clover-Setting.jpg "Clover Setting")
-4. Restart and Check if it works
+4. Restart and Check if it works.
