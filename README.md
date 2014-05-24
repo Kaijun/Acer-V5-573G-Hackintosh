@@ -5,7 +5,7 @@ Acer V5-573G Hackintosh
 
 ##Overview
 
-######Working
+**Working**
 
 - HD4400 graphic card
 - Disabled NVIDA Geforce graphic card under DSDT
@@ -16,7 +16,7 @@ Acer V5-573G Hackintosh
 - Sleep
 - Shutdown
 
-######Not Working
+**Not Working**
 - Accidentally can't wake up from Sleep (due to USB?)
 - USB works only under USB2 (-gux_defer_usb2)
 
