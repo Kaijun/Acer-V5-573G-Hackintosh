@@ -82,8 +82,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -142,42 +142,6 @@
 				<key>Replace</key>
 				<data>
 				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>
-				PYQI7BA=
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				PQAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>
-				PYUI7BA=
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				PQAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>
-				PYQZ1BE=
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				PYIC7BA=
 				</data>
 			</dict>
 		</array>
