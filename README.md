@@ -5,7 +5,7 @@ Acer V5-573G Hackintosh
 
 ##Overview
 
-######Working
+**Working**
 
 - HD4400 graphic card
 - Disabled NVIDA Geforce graphic card under DSDT
@@ -17,8 +17,10 @@ Acer V5-573G Hackintosh
 - Shutdown
 - USB(to be test)
 
-######Not Working
+**Not Working**
 - All seems perfect now!
+
+=======
 
 ##Installation Guide
 
