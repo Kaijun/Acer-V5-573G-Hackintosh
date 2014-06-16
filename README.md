@@ -15,10 +15,10 @@ Acer V5-573G Hackintosh
 - SpeedStepping
 - Sleep
 - Shutdown
+- USB(to be test)
 
 ######Not Working
-- Accidentally can't wake up from Sleep (due to USB?)
-- USB works only under USB2 (-gux_defer_usb2)
+- All seems perfect now!
 
 ##Installation Guide
 
