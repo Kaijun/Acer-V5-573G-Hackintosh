@@ -10,6 +10,8 @@ Acer V5-573G Hackintosh
 - HD4400 graphic card
 - Disabled NVIDA Geforce graphic card under DSDT
 - Sounds: AppleHDA
+	* Legacy Method (install the patched Kext)
+	* New Method (Auto Patch even the OS X updates, needn't install patched any more)
 - TouchPad: VoodooPS2Controller
 - Brightness
 - SpeedStepping
