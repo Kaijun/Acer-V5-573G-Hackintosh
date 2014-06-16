@@ -11,7 +11,7 @@
 			<key>DropOEM_DSM</key>
 			<false/>
 			<key>Name</key>
-			<string>_DSDT.aml</string>
+			<string>DSDT.aml</string>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
