@@ -10,69 +10,8 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
-			<key>Fixes</key>
-			<dict>
-				<key>AddDTGP_0001</key>
-				<true/>
-				<key>AddHDMI_8000000</key>
-				<true/>
-				<key>AddIMEI_80000</key>
-				<true/>
-				<key>AddMCHC_0008</key>
-				<false/>
-				<key>AddPNLF_1000000</key>
-				<true/>
-				<key>DeleteUnused_400000</key>
-				<true/>
-				<key>FIX_ACST_4000000</key>
-				<true/>
-				<key>FIX_ADP1_800000</key>
-				<true/>
-				<key>FIX_INTELGFX_100000</key>
-				<false/>
-				<key>FIX_RTC_20000</key>
-				<true/>
-				<key>FIX_S3D_2000000</key>
-				<true/>
-				<key>FakeLPC_0020</key>
-				<false/>
-				<key>FiX_TMR_40000</key>
-				<true/>
-				<key>FiX_WAK_200000</key>
-				<true/>
-				<key>FixAirport_4000</key>
-				<false/>
-				<key>FixDarwin_0002</key>
-				<false/>
-				<key>FixDisplay_0100</key>
-				<true/>
-				<key>FixFirewire_0800</key>
-				<true/>
-				<key>FixHDA_8000</key>
-				<true/>
-				<key>FixHPET_0010</key>
-				<true/>
-				<key>FixIDE_0200</key>
-				<false/>
-				<key>FixIPIC_0040</key>
-				<true/>
-				<key>FixLAN_2000</key>
-				<false/>
-				<key>FixRegions_10000000</key>
-				<true/>
-				<key>FixSATA_0400</key>
-				<false/>
-				<key>FixSBUS_0080</key>
-				<true/>
-				<key>FixShutdown_0004</key>
-				<false/>
-				<key>FixUSB_1000</key>
-				<true/>
-				<key>NewWay_80000000</key>
-				<true/>
-			</dict>
 			<key>Name</key>
-			<string>DSDT.aml</string>
+			<string>_DSDT.aml</string>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -92,7 +31,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v -gux_defer_usb2</string>
+		<string>-v</string>
 		<key>DefaultVolume</key>
 		<string>MacHDD</string>
 		<key>Legacy</key>
@@ -104,7 +43,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<string>No</string>
+		<string>Yes</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -129,15 +68,11 @@
 		</dict>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<true/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>UseIntelHDMI</key>
-		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -155,7 +90,9 @@
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
-			<true/>
+			<false/>
+			<key>Mirror</key>
+			<false/>
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
@@ -164,7 +101,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -207,6 +144,42 @@
 				SW50ZXJuYWw=
 				</data>
 			</dict>
+			<dict>
+				<key>Find</key>
+				<data>
+				PYQI7BA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				PQAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>
+				PYUI7BA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				PQAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>
+				PYQZ1BE=
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				PYIC7BA=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -237,7 +210,7 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Computer, Inc.</string>
 		<key>ChassisType</key>
-		<integer>10</integer>
+		<string>10</string>
 		<key>Family</key>
 		<string>MacBook Air</string>
 		<key>Manufacturer</key>
