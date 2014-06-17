@@ -20,7 +20,8 @@ Acer V5-573G Hackintosh
 - USB(to be test)
 
 **Not Working**
-- All seems perfect now!
+
+- accidentally shutdown/sleep problem
 
 =======
 
