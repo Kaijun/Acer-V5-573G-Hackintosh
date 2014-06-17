@@ -21,7 +21,7 @@ Acer V5-573G Hackintosh
 
 **Not Working**
 
-- accidentally shutdown/sleep problem
+- to be test: accidentally shutdown/sleep problem
 
 =======
 

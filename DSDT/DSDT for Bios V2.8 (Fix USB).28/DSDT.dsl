@@ -4312,7 +4312,7 @@ DefinitionBlock ("DSDT.aml", "DSDT", 1, "ACRSYS", "ACRPRDCT", 0x00000000)
                             0x0070,             // Range Minimum
                             0x0070,             // Range Maximum
                             0x01,               // Alignment
-                            0x02,               // Length
+                            0x08,               // Length
                             )
                         
                     })
@@ -9242,6 +9242,7 @@ DefinitionBlock ("DSDT.aml", "DSDT", 1, "ACRSYS", "ACRPRDCT", 0x00000000)
         Name (LMSL, Zero)
         Name (LNSL, Zero)
         
+
         Device (HDEF)
         {
             Name (_ADR, 0x001B0000)  // _ADR: Address
@@ -9260,10 +9261,10 @@ DefinitionBlock ("DSDT.aml", "DSDT", 1, "ACRSYS", "ACRPRDCT", 0x00000000)
                 PMES,   1
             }
 
-            //Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            //{
-            //    Return (GPRW (0x6D, 0x04))
-            //}
+            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
+            {
+                Return (GPRW (0x6D, 0x04))
+            }
             Method (_DSM, 4, NotSerialized)
             {
                 If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
@@ -9272,7 +9273,6 @@ DefinitionBlock ("DSDT.aml", "DSDT", 1, "ACRSYS", "ACRPRDCT", 0x00000000)
                     "layout-id", Buffer() { 0x01, 0x00, 0x00, 0x00 },
                     "hda-gfx", Buffer() { "onboard-1" },
                     "PinConfigurations", Buffer() { },
-                    "device-type", Buffer() {"Realtek ALC282"},
                     //"MaximumBootBeepVolume", 77,
                 })
             }
