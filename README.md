@@ -14,7 +14,7 @@ Acer V5-573G Hackintosh
 	* New Method (Auto Patch even the OS X updates, needn't to install patched Kext any more)
 - TouchPad: VoodooPS2Controller
 - Brightness
-- SpeedStepping
+- SpeedStepping(without Turbo Boost)
 - Sleep
 - Shutdown
 - USB(to be test)
