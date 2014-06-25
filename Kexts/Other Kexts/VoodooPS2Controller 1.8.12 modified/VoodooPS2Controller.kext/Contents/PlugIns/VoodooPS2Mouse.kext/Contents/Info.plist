@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>13B42</string>
+	<string>13D65</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Mouse</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.8.10, Copyright Apple Computer, Inc. 2000-2004, Slice 2010, RehabMan 2012-2013</string>
+	<string>1.8.12, Copyright Apple Computer, Inc. 2000-2004, Slice 2010, RehabMan 2012-2013</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.voodoo.driver.PS2Mouse</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -21,11 +21,11 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.8.10</string>
+	<string>1.8.12</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>5A3005</string>
+	<string>5B1008</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -33,9 +33,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.8</string>
 	<key>DTXcode</key>
-	<string>0502</string>
+	<string>0511</string>
 	<key>DTXcodeBuild</key>
-	<string>5A3005</string>
+	<string>5B1008</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ApplePS2Mouse</key>
@@ -115,6 +115,12 @@
 					<string>ProBook</string>
 					<key>17F6</key>
 					<string>ProBook</string>
+					<key>1942</key>
+					<string>ProBook</string>
+					<key>1949</key>
+					<string>ProBook</string>
+					<key>198F</key>
+					<string>ProBook</string>
 					<key>ProBook</key>
 					<dict>
 						<key>ActLikeTrackpad</key>
@@ -122,6 +128,16 @@
 						<key>DisableDevice</key>
 						<true/>
 					</dict>
+				</dict>
+				<key>Lenovo</key>
+				<dict>
+					<key>Haswell-Ideapad</key>
+					<dict>
+						<key>DisableDevice</key>
+						<true/>
+					</dict>
+					<key>U430</key>
+					<string>Haswell-Ideapad</string>
 				</dict>
 			</dict>
 			<key>ProductID</key>
@@ -143,7 +159,7 @@
 		<key>com.apple.kpi.mach</key>
 		<string>9.0.0</string>
 		<key>org.rehabman.voodoo.driver.PS2Controller</key>
-		<string>1.8.10</string>
+		<string>1.8.12</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Console</string>
