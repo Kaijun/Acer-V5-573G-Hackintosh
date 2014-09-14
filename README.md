@@ -21,7 +21,7 @@ Acer V5-573G Hackintosh
 
 **Not Working**
 
-- to be test: accidentally shutdown/sleep problem
+- to be tested: accidentally shutdown/sleep problem
   - description && ***temporary solution***: have a look at [this issue](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6)
 
 =======
