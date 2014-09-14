@@ -23,7 +23,7 @@ Acer V5-573G Hackintosh
 
 - to be test: accidentally shutdown/sleep problem
   - description: if the laptop runs continually for a long time(maybe more than 2h?), then it will be unable to shut down or sleep(can't wake up from sleep).
-  - ***temporary solution**: force the laptop to **sleep manually** after the start of your laptop. After the power light **turns orange**, then **wake the laptop up**. Then all the shutdown/sleep behavior will be normal. The phenomenon as the description won't appear again.  
+  - ***temporary solution***: force the laptop to **sleep manually** after the start of your laptop. After the power light **turns orange**, then **wake the laptop up**. Then all the shutdown/sleep behavior will be normal. The phenomenon as the description won't appear again.  
 
 =======
 
