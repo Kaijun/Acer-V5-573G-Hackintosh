@@ -21,13 +21,16 @@ Acer V5-573G Hackintosh
 
 **Not Working**
 
-- to be test: accidentally shutdown/sleep problem
+- to be tested: accidentally shutdown/sleep problem
+  - description && ***temporary solution***: have a look at [this issue](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6)
 
 =======
 
 ##Installation Guide
 
-To Be Down.
+A brief guide to the installation wrote by [@Majkwin](https://github.com/Majkwin) plz see [issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
+
+=======
 
 ##Feedback
 Plese do not hesitate to contact me by using the **[issue function](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues)**, if you have any questions about the setup.
