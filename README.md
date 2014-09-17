@@ -28,7 +28,7 @@ Acer V5-573G Hackintosh
 
 ##Installation Guide
 
-A brief guide to the installation wrote by [Majkwin](https://github.com/Majkwin) @ plz see [issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
+A brief guide to the installation wrote by [@Majkwin](https://github.com/Majkwin) plz see [issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
 
 =======
 
