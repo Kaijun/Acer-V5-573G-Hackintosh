@@ -24,13 +24,13 @@ Acer V5-573G Hackintosh
   - i'm using `BCM94322HM8L` which doesn't contain the BlueTooth module.
   - `BCM943225HMB` with BlueTooth which is suggested by [@virusak](https://github.com/virusak) in [Issue #4](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/4#issuecomment-56149694).
 - to be tested: accidentally shutdown/sleep problem
-  - description && ***temporary solution***: have a look at [this issue](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6)
+  - description && ***temporary solution***: have a look at [Issue #6](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6)
 
 =======
 
 ##Installation Guide
 
-A brief guide to the installation wrote by [@Majkwin](https://github.com/Majkwin) plz see [issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
+A brief guide to the installation wrote by [@Majkwin](https://github.com/Majkwin) plz see [Issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
 
 =======
 
