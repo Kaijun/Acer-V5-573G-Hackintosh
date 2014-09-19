@@ -20,7 +20,7 @@ Acer V5-573G Hackintosh
 - USB(to be test)
 
 **Not Working**
-- internal Wifi card, it must be replaced(buy suggestions see belo)
+- internal Wifi card, it must be replaced(buying suggestions see below)
   - i'm using `BCM94322HM8L` which doesn't contain the BlueTooth module.
   - `BCM943225HMB` with BlueTooth which is suggested by [@virusak](https://github.com/virusak) in [Issue #4](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/4#issuecomment-56149694).
 - to be tested: accidentally shutdown/sleep problem
