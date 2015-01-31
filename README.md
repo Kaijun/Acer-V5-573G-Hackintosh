@@ -4,7 +4,7 @@ Acer V5-573G Hackintosh
 > All my hackintosh stuffs of Acer V5-573G
 
 ## News :)
-Problem when updating 10.8.2: Graphical lag! [Solution by Majkwin](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/9#issuecomment-71815507)
+Problem when updating 10.10.2: Graphical lag! [Solution by Majkwin](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/9#issuecomment-71815507)
 I would also upload my Clover.zip later 
 
 ##Overview
