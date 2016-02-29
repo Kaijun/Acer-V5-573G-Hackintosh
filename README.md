@@ -4,6 +4,9 @@ Acer V5-573G Hackintosh
 > All my hackintosh stuffs of Acer V5-573G
 
 ## News :)
+
+[michaelspeed](https://github.com/michaelspeed) has contributed his new Clover and Configuration for El Capitan in [Issue #27](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/pull/27). I merged it into the branch [el-capitan-10.11---i7-4500U](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i7-4500U). Thanks!
+
 Problem when updating 10.10.2: Graphical lag! [Solution by Majkwin](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/9#issuecomment-71815507)
 I would also upload my Clover.zip later 
 
