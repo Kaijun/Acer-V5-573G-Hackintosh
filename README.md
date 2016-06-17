@@ -3,15 +3,22 @@ Acer V5-573G Hackintosh
 
 > All my hackintosh stuffs of Acer V5-573G
 
-## News :)
+## News 🔥
 
-29 Feb 2016: [michaelspeed](https://github.com/michaelspeed) has contributed his new Clover and Configuration for El Capitan in [Issue #27](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/pull/27). I merged it into the branch [el-capitan-10.11---i7-4500U](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i7-4500U). Thanks!
+***‼️Notice‼️*** You need to modify the ***Memory Section*** of `SMBIOS` in the config.plist to fit your own specs! Since El Captain, we have to define this section explicitly, otherwise it will cause kernel panic.
+My own memory works in 2 channels, which means i need set two memory entries for slot `0` and `2` and the slot count for `4`, the reason:
+>Set the Size and Frequency for each of the two memory entries to match your installed RAM. If you know the vendor, part, and serial for your memory you can edit those fields too (if not, just leave them as is). Leave the two memory entries set for slots 0 and 2 and the slot count set for 4 even though the board only has two slots (Clover wants to see slots 0 and 2 configured to treat the memory as dual-channel).
 
-2 Mar 2016: [Silveryard](https://github.com/Silveryard) has contributed his new Clover and Configuration for El Capitan in [Issue #28](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/pull/28). I merged it into the branch  [el-capitan-10.11---i5-4200U-TouchScreen](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i5-4200U-TouchScreen). Thanks!
+***🎉Releases🎉***:
+Click to Download [Releases](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/releases) 
+- 17.06.2016: Clover-3556-El-Captain-17062016
 
-Problem when updating 10.10.2: Graphical lag! [Solution by Majkwin](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/9#issuecomment-71815507)
-I would also upload my Clover.zip later 
+New Release for El 
 
+## Branches:
+- [el-capitan-10.11---i7-4500U](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i7-4500U) maintained by [michaelspeed](https://github.com/michaelspeed)
+- [el-capitan-10.11---i5-4200U-TouchScreen](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i5-4200U-TouchScreen) maintained by [Silveryard](https://github.com/Silveryard)
+- archieve branches: check yourself 😄
 ##Overview
 
 **Working**
