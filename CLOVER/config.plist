@@ -10,8 +10,30 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
+			<key>Fixes</key>
+			<dict>
+				<key>FixHPET_0010</key>
+				<true/>
+			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMQ==
+					</data>
+				</dict>
+			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -30,7 +52,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>rootless=0</string>
+		<string>-xcpm</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -157,22 +179,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Trim</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NEAA==
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Expect 2 matches</string>
 				<key>Disabled</key>
 				<false/>
@@ -201,6 +207,22 @@
 				<key>Replace</key>
 				<data>
 				SW50ZXJuYWw=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Trim</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QVBQTEUgU1NEAA==
+				</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -273,7 +295,7 @@
 					<key>Size</key>
 					<string>4096</string>
 					<key>Slot</key>
-					<string>0</string>
+					<string>2</string>
 					<key>Type</key>
 					<string>DDR3</string>
 					<key>Vendor</key>
@@ -285,7 +307,7 @@
 					<key>Size</key>
 					<string>4096</string>
 					<key>Slot</key>
-					<string>2</string>
+					<string>0</string>
 					<key>Type</key>
 					<string>DDR3</string>
 					<key>Vendor</key>
