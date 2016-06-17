@@ -13,8 +13,9 @@ My own memory works in 2 channels, which means i need set two memory entries for
 
 **Versions:**
 - 18.06.2016: Clover-3556-El-Capitan-18062016
-  * USB fixed
-  * Brand New DSDT/SSDTs from Bios 2.30
+  * fix USB (Rename EHCI->EH01, FakePCIID_XHCIMux.kext, USBInjectAll.kext)
+  * new DSDT/SSDTs from Bios 2.30, new [DSDT repo](https://github.com/Kaijun/Acer-V5-573g-DSDT)
+
 - 17.06.2016: Clover-3556-El-Capitan-17062016
 
 
