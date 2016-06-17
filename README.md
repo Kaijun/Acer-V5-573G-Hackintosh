@@ -7,12 +7,15 @@ Acer V5-573G Hackintosh
 
 **[Click to Download Releases](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/releases)**
 
-**‼️ Notice:** You need to modify the **Memory Section** of `SMBIOS` in the config.plist to fit your own specs! Since El Captain, we have to define this section explicitly, otherwise it will cause kernel panic.
+**‼️ Notice:** You need to modify the **Memory Section** of `SMBIOS` in the config.plist to fit your own specs! Since El Capitan, we have to define this section explicitly, otherwise it will cause kernel panic.
 My own memory works in 2 channels, which means i need set two memory entries for slot `0` and `2` and the slot count for `4`, the reason:
 >Set the Size and Frequency for each of the two memory entries to match your installed RAM. If you know the vendor, part, and serial for your memory you can edit those fields too (if not, just leave them as is). Leave the two memory entries set for slots 0 and 2 and the slot count set for 4 even though the board only has two slots (Clover wants to see slots 0 and 2 configured to treat the memory as dual-channel).
 
 **Versions:**
-- 17.06.2016: Clover-3556-El-Captain-17062016
+- 18.06.2016: Clover-3556-El-Capitan-18062016
+  * USB fixed
+  * Brand New DSDT/SSDTs from Bios 2.30
+- 17.06.2016: Clover-3556-El-Capitan-17062016
 
 
 ## Branches:
