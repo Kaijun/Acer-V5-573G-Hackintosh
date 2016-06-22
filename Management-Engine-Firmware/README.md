@@ -1,11 +1,11 @@
 
-> @savvamitrofanov: yep , intel management engine uefi region. you can download firmware suitable for yours ME and tools for uefi shell from here http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html.
+> @savvamitrofanov: yep , intel management engine uefi region. you can download firmware suitable for yours ME and tools for uefi shell from here [win-raid](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html).
 Just for me it solved all problems with shutdown/sleep/restart after long,heavy load on my haswell laptop Asus X200LA.
 
-First of all, i would thank [@savvamitrofanov](https://github.com/savvamitrofanov) for this solution. https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6#issuecomment-225346907
+First of all, i would thank [@savvamitrofanov](https://github.com/savvamitrofanov) for this solution. [(issue 6 comment)](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6#issuecomment-225346907)
 
 ### Why do I need to take risk to flash this firmware?
-Updating Intel Management Engine Firmware will significantly improve the shutdown/sleep/restart behaviours of your laptop while running MacOS(Hacintosh), or even Windows 10. All Issues with shutdown/sleep/restart mentioned in https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6 will be fixed!
+Updating Intel Management Engine Firmware will significantly improve the shutdown/sleep/restart behaviours of your laptop while running MacOS(Hacintosh), or even Windows 10. All Issues with shutdown/sleep/restart mentioned in [issue 6](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6) will be fixed!
 
 ###Tutorial:
 
