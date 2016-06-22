@@ -3,6 +3,9 @@ Acer V5-573G Hackintosh
 
 > All my hackintosh stuffs of Acer V5-573G
 
+##News
+- Shutdown/Sleep/Restart issues in https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6  was fixed! Check the [**Management-Engine-Firmware**](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/master/Management-Engine-Firmware) folder!
+
 ##Releases
 
 **[Click to Download Releases](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/releases)**
@@ -12,6 +15,9 @@ My own memory works in 2 channels, which means i need set two memory entries for
 >Set the Size and Frequency for each of the two memory entries to match your installed RAM. If you know the vendor, part, and serial for your memory you can edit those fields too (if not, just leave them as is). Leave the two memory entries set for slots 0 and 2 and the slot count set for 4 even though the board only has two slots (Clover wants to see slots 0 and 2 configured to treat the memory as dual-channel).
 
 **Versions:**
+- 22.06.2016: Clover-3556-El-Capitan-18062016
+  * Manage-Engine-Firmware files and tutorial are added, which fixed Shutdown/Sleep/Restart issues in https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6 !
+
 - 18.06.2016: Clover-3556-El-Capitan-18062016
   * fix USB (Rename EHCI->EH01, FakePCIID_XHCIMux.kext, USBInjectAll.kext)
   * new DSDT/SSDTs from Bios 2.30, new [DSDT repo](https://github.com/Kaijun/Acer-V5-573g-DSDT)
