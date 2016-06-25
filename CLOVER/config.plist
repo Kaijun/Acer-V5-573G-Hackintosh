@@ -113,8 +113,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>BOOTX64.EFI</string>
 			<string>Windows</string>
+			<string>BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -211,18 +211,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Trim</string>
+				<string>Expect 2 matches</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				QVBQTEUgU1NEAA==
+				hQjsEA==
 				</data>
 				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
+				<string>AppleHDA</string>
 				<key>Replace</key>
 				<data>
-				AAAAAAAAAAAAAA==
+				AAAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -243,18 +243,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Expect 2 matches</string>
+				<string>Trim</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				hQjsEA==
+				QVBQTEUgU1NEAA==
 				</data>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AAAAAA==
+				AAAAAAAAAAAAAA==
 				</data>
 			</dict>
 		</array>
@@ -295,7 +295,7 @@
 					<key>Size</key>
 					<string>4096</string>
 					<key>Slot</key>
-					<string>2</string>
+					<string>0</string>
 					<key>Type</key>
 					<string>DDR3</string>
 					<key>Vendor</key>
@@ -307,7 +307,7 @@
 					<key>Size</key>
 					<string>4096</string>
 					<key>Slot</key>
-					<string>0</string>
+					<string>2</string>
 					<key>Type</key>
 					<string>DDR3</string>
 					<key>Vendor</key>
