@@ -113,8 +113,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -157,7 +157,7 @@
 		<key>NvidiaSingle</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x0a260006</string>
+		<string>0x0a16000c</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -177,6 +177,22 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Expect 2 matches</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				hQjsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Expect 2 matches</string>
@@ -211,18 +227,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Expect 2 matches</string>
+				<string>Trim</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				hQjsEA==
+				QVBQTEUgU1NEAA==
 				</data>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AAAAAA==
+				AAAAAAAAAAAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -239,22 +255,6 @@
 				<key>Replace</key>
 				<data>
 				ggLsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Trim</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NEAA==
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAA==
 				</data>
 			</dict>
 		</array>
