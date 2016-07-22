@@ -16,6 +16,13 @@ My own memory works in 2 channels, which means i need set two memory entries for
 >Set the Size and Frequency for each of the two memory entries to match your installed RAM. If you know the vendor, part, and serial for your memory you can edit those fields too (if not, just leave them as is). Leave the two memory entries set for slots 0 and 2 and the slot count set for 4 even though the board only has two slots (Clover wants to see slots 0 and 2 configured to treat the memory as dual-channel).
 
 **Versions:**
+
+- 2016-07-22: Clover-3556-El-Capitan-2016-07-22
+  * Change ig-platform-id to 0x0a16000c which is more compatible with HD4400 [issue #39](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/39)
+
+- 2016-06-25: Clover-3556-El-Capitan-2016-06-26
+  * Now Fn+Left/Right keys are working now! Only for VoodooPS2 Users(Synaptics).
+
 - 2016-06-25: Clover-3556-El-Capitan-2016-06-25
   * Manage-Engine-Firmware files and tutorial are added, which fixed Shutdown/Sleep/Restart issues described in [issue 6](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6) !
   * USB in DSDT fixed
