@@ -15,5 +15,5 @@ Updating Intel Management Engine Firmware will significantly improve the shutdow
 4. run **`FS0:`** (depending on the partition you extracted your files in), notice the **colon** `:`, don't forget it!
 5. run `MeInfo.efi`, check your current `FW Version`. (use PageUp, PageDown button to scroll)
 6. run `FwUpdLcl.efi -F fw.bin` to flash the new firmware and wait till it finished.
-7. Reboot and enter `efi shell` again, run `MeInfo.efi`, check if `FW Version` was successfully updated to `9.5.51948`
+7. Reboot and enter `efi shell` again, run `MeInfo.efi`, check if `FW Version` was successfully updated to `9.5.55.1948`
 8. Enjoy!
