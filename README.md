@@ -3,11 +3,11 @@ Acer V5-573G Hackintosh
 
 > All my hackintosh stuffs of Acer V5-573G
 
-##News
+## News
 - Shutdown/Sleep/Restart issues described in [issue 6](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/6) was fixed! Check the [**Management-Engine-Firmware**](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/master/Management-Engine-Firmware) folder!
 - I also wrote a **Tutorial about the modification of DSDT/SSDTs**. If you have a different model of V5-573 and want to modify your own DSDT/SSDTs, please check [this Repo](https://github.com/Kaijun/Acer-V5-573g-DSDT)
 
-##Releases
+## Releases
 
 **[Click to Download Releases](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/releases)**
 
@@ -39,7 +39,7 @@ My own memory works in 2 channels, which means i need set two memory entries for
 - [el-capitan-10.11---i5-4200U-TouchScreen](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/tree/el-capitan-10.11---i5-4200U-TouchScreen) maintained by [Silveryard](https://github.com/Silveryard)
 - archieve branches: check yourself 😄
 
-##Overview
+## Overview
 
 **Working**
 
@@ -50,13 +50,13 @@ My own memory works in 2 channels, which means i need set two memory entries for
 	* New Method (Auto Patch even the OS X updates, needn't to install patched Kext any more)
 - TouchPad: VoodooPS2Controller
 - Brightness
-- SpeedStepping(without Turbo Boost)
+- SpeedStepping (w/o Turbo Boost)
 - Sleep
 - Shutdown
-- USB(to be test)
+- USB (to be test)
 
 **Not Working**
-- internal Wifi card, it must be replaced(buying suggestions see below)
+- internal Wifi card, it must be replaced (buying suggestions see below)
   - i'm using `BCM94322HM8L` which doesn't contain the BlueTooth module.
   - `BCM943225HMB` with BlueTooth which is suggested by [@virusak](https://github.com/virusak) in [Issue #4](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/4#issuecomment-56149694).
 - to be tested: accidentally shutdown/sleep problem
@@ -64,15 +64,15 @@ My own memory works in 2 channels, which means i need set two memory entries for
 
 =======
 
-##Installation Guide
+## Installation Guide
 
 A brief guide to the installation wrote by [@Majkwin](https://github.com/Majkwin) plz see [Issue #7](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues/7). Thank him!
 
 =======
 
-##Feedback
+## Feedback
 Plese do not hesitate to contact me by using the **[issue function](https://github.com/Kaijun/Acer-V5-573G-Hackintosh/issues)**, if you have any questions about the setup.
 
-##License
+## License
 
 The source code is released under [GPL v3](http://www.gnu.org/copyleft/gpl.html) or (at your option) any later version.
